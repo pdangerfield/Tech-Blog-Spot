@@ -1,0 +1,26 @@
+{
+  "name": "tech-blog-spot",
+  "version": "1.0.0",
+  "description": "# 14 Model-View-Controller (MVC): Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdangerfield/Tech-Blog-Spot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdangerfield/Tech-Blog-Spot/issues"
+  },
+  "homepage": "https://github.com/pdangerfield/Tech-Blog-Spot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.2",
+    "sequelize": "^6.31.1"
+  }
+}
