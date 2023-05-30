@@ -5,8 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Blog Spot</title>
-    <link rel="stylesheet" href="/css/jass.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/jass.css" />
+    
   </head>
 
   <body>
@@ -16,23 +17,23 @@
         <nav>
           <!-- Conditionally render login or logout links -->
           {{#if loggedIn}}
-            <a href="/home">home</a>
-            <a href="/dashboard">dashboard</a>
-            <a href="/logout">logout</a>
-            <button class="no-button" id="logout">logout</button>
+            <a href="/home">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <button class ="no-button" id="logout">logout</button>
+           
           {{else}}
-            <a href="/home">home</a>
-            <a href="/dashboard">dashboard</a>
-            <a href="/login">login</a>
+            <a href="/login">Login</a>
           {{/if}}
         </nav>
-         <h1>
+         
+      </header>
+      <h1>
           <a href="/">Tech Blog!</a>
         </h1>
-      </header>
       <main class="container container-fluid mt-5">
         <!-- Render the sub layout -->
-        {{!-- {{{body}}} --}}
+        
+        {{{body}}}
       </main>
       <footer>
 
