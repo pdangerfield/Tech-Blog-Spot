@@ -16,7 +16,6 @@ const newFormHandler = async (event) => {
   
       if (response.ok) {
         document.location.replace('/profile');
-        console.log('Successfully created post');
       } else {
         alert('Failed to create posts');
       }
