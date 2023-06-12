@@ -1,50 +1,24 @@
-nav {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    height: 75px;
-    padding: 10px 0px;
-  }
-  
-  nav a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 24px;
-    vertical-align: bottom;
-  }
-  
-  header {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    height: 75px;
-    padding: 10px 0px;
-  }
-  
-  header a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 24px;
-    vertical-align: bottom;
-  }
-  
-  h1 {
-    margin-top: 95px; /* Adjust the margin to create space below the nav bar */
-    text-align: center; /* Center the heading */
-  }
-  
-  .container {
-    margin-top: 30px; /* Add some space between the heading and the body content */
-  }
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
