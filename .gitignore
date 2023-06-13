@@ -1,3 +1,6 @@
-.env
-node-modules
+node_modules/ 
+.DS_Store/
+.vscode
 package-lock.json
+.DS_Store
+.env
