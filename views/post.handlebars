@@ -1,0 +1,9 @@
+<section class="card-container">
+  <div class="card">
+    <header class="card-title"><strong>{{ name }}</strong> </header>
+    <p>{{ description }}</p>
+    <p>{{ posts.user_id }}{{ user.name }}</p>
+    <a href="/api/posts/comment/{{ posts.id }}"><button class="btn btn-primary">Comment</button></a>
+    <button class="button delete-btn" type="button" id="del-btn">Delete</button>
+  </div>
+</section>
